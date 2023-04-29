@@ -54,5 +54,10 @@ function dayNightTheme(){
     let date = new Date()
     let hour = date.getHours()
     console.log(hour)
-    
+    if(hour >= 7 && hour <19){
+        console.log('day')
+    }
+    else{
+        console.log('night')
+    }
 }
